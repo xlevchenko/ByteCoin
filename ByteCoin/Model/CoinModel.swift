@@ -13,6 +13,6 @@ struct CoinModel {
     let rate: Double
     
     var rateString: String {
-        return String(format: "%.2f", rate)
+        return String(format: "%.1f", rate)
     }
 }
